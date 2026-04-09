@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { StatusBar } from "expo-status-bar";
-import AddTaskScreen from "./screens/AddTaskScreen";
-import TarefasScreen from "./screens/TarefasScreen";
+import AddTaskScreen from "./components/AddTaskScreen";
+import TarefasScreen from "./components/TarefasScreen";
 
 export default function App() {
   const [screen, setScreen] = useState("list");
